@@ -19,3 +19,11 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Firstly {
+  var a: Int = 5
+  var b = 10
+  var c: Int {
+    return a + b
+  }
+}
